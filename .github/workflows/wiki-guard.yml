@@ -16,8 +16,6 @@ name: Wiki Guard
 # so violations are caught by polling the wiki git history.
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"
   gollum:
   # Piggyback on frequent repo activity, because the cron schedule is
   # best-effort and often delayed well beyond its interval.

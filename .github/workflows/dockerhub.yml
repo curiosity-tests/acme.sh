@@ -14,8 +14,6 @@ on:
   # schedule (default branch only) dispatches the latest release tag so a
   # pinned version tag picks up Alpine package security updates (issue 7209).
   # master never publishes anything but latest.
-  schedule:
-    - cron: '17 3 * * 1'
   workflow_dispatch:
 
 concurrency:
